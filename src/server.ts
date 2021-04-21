@@ -5,6 +5,7 @@ import { routers } from './routes';
 
 // habilitar resolveJsonModule no arquivo de configuração tsconfig
 import swaggerFile from './swagger.json';
+import './database';
 
 const app = express();
 
