@@ -1,4 +1,4 @@
-export interface ICreateUserDTO {
+interface ICreateUserDTO {
   name: string;
 
   username: string;
@@ -9,3 +9,5 @@ export interface ICreateUserDTO {
 
   driver_license: string;
 }
+
+export { ICreateUserDTO };
