@@ -10,14 +10,12 @@ class CreateUserController {
 
     const {
       name,
-      username,
       email,
       password,
       driver_license,
     }: ICreateUserDTO = request.body;
     await createUserUseCase.execute({
       name,
-      username,
       email,
       password,
       driver_license,
