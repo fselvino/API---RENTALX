@@ -22,6 +22,7 @@ class CreateUserUseCase {
       throw new Error('User already exists!');
     }
 
+    // Cria uma senha criptografada
     const passwordHash = await hash(password, 8);
 
     await this.usersRepository.create({
