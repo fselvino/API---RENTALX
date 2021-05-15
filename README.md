@@ -1,64 +1,64 @@
 # Cadastro de veículo
-**RF**  Requesitos funcionais
-[ ] Deve ser possível cadastrar um novo veículo.
-[ ] Deve ser possível listar todas as categorias.
+**RF**  Requesitos funcionais <br />
+[ ] Deve ser possível cadastrar um novo veículo.<br />
+[ ] Deve ser possível listar todas as categorias.<br />
 
 
-**RNF**  Requesitos não funcionais
+**RNF**  Requesitos não funcionais<br />
 
 
-**RN**  Regras de negócios
-[ ] Não deve ser possível cadastrar um carro com uma placa existente.
-[ ] Não deve ser possível alterar uma placa de um carro já cadastrado.
-[ ] O veículo deve ser cadastrado por padrão com disponibilidade.
-[ ] O usuário responsável pelo cadastro deve ser um usuário administrador.
+**RN**  Regras de negócios<br />
+[ ] Não deve ser possível cadastrar um carro com uma placa existente.<br />
+[ ] Não deve ser possível alterar uma placa de um carro já cadastrado.<br />
+[ ] O veículo deve ser cadastrado por padrão com disponibilidade.<br />
+[ ] O usuário responsável pelo cadastro deve ser um usuário administrador.<br />
 
 
 # Listagem do Veículo
-**RF**  Requesitos funcionais
-[ ] Deve ser possível listar todos veículos disponiveis.
-[ ] Deve ser possível listar todos os veículos pelo nome da categoria.
-[ ] Deve ser possível listar todos os veículos pelo nome da marca.
-[ ] Deve ser possível listar todos os veículos pelo nome do veículo.
+**RF**  Requesitos funcionais<br />
+[ ] Deve ser possível listar todos veículos disponiveis.<br />
+[ ] Deve ser possível listar todos os veículos pelo nome da categoria.<br />
+[ ] Deve ser possível listar todos os veículos pelo nome da marca.<br />
+[ ] Deve ser possível listar todos os veículos pelo nome do veículo.<br />
 
-**RN**  Regras de negócios
-[ ] O usuário não precisa estar logado no sistema para navegar no sistema
+**RN**  Regras de negócios<br />
+[ ] O usuário não precisa estar logado no sistema para navegar no sistema.<br />
 
 
 
 # Cadastro de Especificação do veículo
-**RF**  Requesitos funcionais
-[ ] Deve ser possível cadastrar um especificação para um veículo.
-[ ] Deve ser possível listar todas especificações.
-[ ] Deve ser possível listar todos os veículos
+**RF**  Requesitos funcionais.<br />
+[ ] Deve ser possível cadastrar um especificação para um veículo.<br />
+[ ] Deve ser possível listar todas especificações.<br />
+[ ] Deve ser possível listar todos os veículos.<br />
 
-**RN**  Regras de negócios
-[ ] Não deve ser possível cadastrar uma especificação para um veículo não cadastrado.
-[ ] Não deve ser possível cadastrar uma especificação já existente para o mesmo veículo.
-[ ] O usuário responsável pelo cadastro deve ser um usuário administrador.
+**RN**  Regras de negócios<br />
+[ ] Não deve ser possível cadastrar uma especificação para um veículo não cadastrado.<br />
+[ ] Não deve ser possível cadastrar uma especificação já existente para o mesmo veículo.<br />
+[ ] O usuário responsável pelo cadastro deve ser um usuário administrador.<br />
 
 
 # Cadastro de imagens do veículo
 
-**RF**  Requesitos funcionais
-[ ] Deve ser possível cadastrar a imagem do veículo.
-[ ] Deve ser possível listar todos os veículos.
+**RF**  Requesitos funcionais<br />
+[ ] Deve ser possível cadastrar a imagem do veículo.<br />
+[ ] Deve ser possível listar todos os veículos.<br />
 
-**RNF**  Requesitos não funcionais
-[ ] Utilizar o multer para upload dos arquivos.
+**RNF**  Requesitos não funcionais.<br />
+[ ] Utilizar o multer para upload dos arquivos.<br />
 
-**RN**  Regras de negócios
-[ ] O Usuário deve poder cadastrar mais de uma imagem para o mesmo veículo.
-[ ] O usuário responsável pelo cadastro deve ser um usuário administrador.
+**RN**  Regras de negócios<br />
+[ ] O Usuário deve poder cadastrar mais de uma imagem para o mesmo veículo.<br />
+[ ] O usuário responsável pelo cadastro deve ser um usuário administrador.<br />
 
 
 
 # Aluguel de Veículos
 
-**RF**  Requesitos funcionais
-[ ] Deve ser possível cadastrar um aluguel
+**RF**  Requesitos funcionais<br />
+[ ] Deve ser possível cadastrar um aluguel.<br />
 
-**RN**  Regras de negócios
- [ ] O aluguel deve ter duração mínima de 24 horas.
- [ ] Não deve ser possível caso já exista um aluguel para o mesmo usuário.
- [ ] Não deve ser possível caso já exista um aluguel para o mesmo carro.
+**RN**  Regras de negócios<br />
+ [ ] O aluguel deve ter duração mínima de 24 horas.<br />
+ [ ] Não deve ser possível caso já exista um aluguel para o mesmo usuário.<br />
+ [ ] Não deve ser possível caso já exista um aluguel para o mesmo carro.<br />
