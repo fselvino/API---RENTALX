@@ -1,7 +1,7 @@
 # Cadastro de veículo
 **RF**  Requesitos funcionais <br />
 [ ] Deve ser possível cadastrar um novo veículo.<br />
-[ ] Deve ser possível listar todas as categorias.<br />
+
 
 
 **RNF**  Requesitos não funcionais<br />
