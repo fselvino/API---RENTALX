@@ -1,6 +1,6 @@
 # Cadastro de veículo
 **RF**  Requesitos funcionais <br />
-[ ] Deve ser possível cadastrar um novo veículo.<br />
+[x] Deve ser possível cadastrar um novo veículo.<br />
 
 
 
@@ -8,9 +8,8 @@
 
 
 **RN**  Regras de negócios<br />
-[ ] Não deve ser possível cadastrar um carro com uma placa existente.<br />
-[ ] Não deve ser possível alterar uma placa de um carro já cadastrado.<br />
-[ ] O veículo deve ser cadastrado por padrão com disponibilidade.<br />
+[x] Não deve ser possível cadastrar um carro com uma placa existente.<br />
+[x] O veículo deve ser cadastrado por padrão com disponibilidade.<br />
 [ ] O usuário responsável pelo cadastro deve ser um usuário administrador.<br />
 
 
