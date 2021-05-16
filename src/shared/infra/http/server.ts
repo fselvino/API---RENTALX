@@ -2,17 +2,15 @@ import express, { NextFunction, Response, Request } from 'express';
 import 'express-async-errors';
 import swaggerUi from 'swagger-ui-express';
 
-import '@shared/infra/typeorm';
-
-import '../../container';
-
 import { AppError } from '@shared/errors/AppErrors';
+import createConnection from '@shared/infra/typeorm';
+import '../../container';
 
 import swaggerFile from '../../../swagger.json';
 import { routers } from './routes';
 
 // habilitar resolveJsonModule no arquivo de configuração tsconfig
-
+createConnection();
 const app = express();
 
 app.use(express.json());
