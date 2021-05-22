@@ -48,7 +48,6 @@ class CarsRepositoryInMemory implements ICarsRepository {
         (category_id && car.category_id === category_id) ||
         (name && car.name === name)
       ) {
-        console.log(car);
         return car;
       }
       return null;
