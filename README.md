@@ -28,8 +28,7 @@
 # Cadastro de Especificação do veículo
 **RF**  Requesitos funcionais.<br />
 [ ] Deve ser possível cadastrar um especificação para um veículo.<br />
-[ ] Deve ser possível listar todas especificações.<br />
-[ ] Deve ser possível listar todos os veículos.<br />
+
 
 **RN**  Regras de negócios<br />
 [ ] Não deve ser possível cadastrar uma especificação para um veículo não cadastrado.<br />
