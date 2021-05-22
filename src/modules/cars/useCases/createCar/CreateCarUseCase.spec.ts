@@ -56,7 +56,7 @@ describe('Create Car', () => {
       brand: 'Brand', // marca do veículo
       category_id: 'category',
     });
-    console.log(car);
+    // console.log(car);
     expect(car.available).toBe(true);
   });
 });
