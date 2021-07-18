@@ -17,9 +17,7 @@ container.registerSingleton<ICategoriesRepository>(
 );
 
 container.registerSingleton<ISpecificationsRepository>(
-  // nome que sera chamado
   'SpecificationsRepository',
-  // Categoria a ser injetada
   SpecificationsRepository,
 );
 
